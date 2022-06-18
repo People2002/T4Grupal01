@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/nav_sumar">
+
+    <fragment
+        android:id="@+id/nav_sumar"
+        android:name="com.example.t4grupal01.Fragmento1"
+        android:label="Sumar"
+        tools:layout="@layout/fragment_fragmento1" />
+    <fragment
+        android:id="@+id/nav_multiplicar"
+        android:name="com.example.t4grupal01.Fragmento2"
+        android:label="Multiplicar"
+        tools:layout="@layout/fragment_fragmento2" />
+</navigation>
